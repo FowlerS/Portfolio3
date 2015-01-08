@@ -4,8 +4,12 @@
  * and open the template in the editor.
  */
 
-
 $("document").ready(function(){
-    $("p").css("background-color", "red");
-    
+    $(".00").css("background-color", "black");
+    $("p").css("color", "red");
+    $("p").css("padding", "25px");
+    $("#0").css("text-align", "center");
+    $("#1").css("text-align", "center");
+    $("#2").css("text-align", "center");
+    $("#3").css("text-align", "left");
 });
