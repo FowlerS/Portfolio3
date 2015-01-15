@@ -4,7 +4,9 @@
  * and open the template in the editor.
  */
 
-$("document").ready(function(){
+//These first lines of code are the basic html and css of the index page
+
+$("#Index").ready(function(){
     $(".00").css("background-color", "black");
     
     $("p").css("padding", "15px");
@@ -23,6 +25,10 @@ $("document").ready(function(){
     
     $("#3").css("border", "solid");
     
+    $("#Transfer").css("border", "solid");
+    
+    $("#Transfer").css("border-color", "white");
+    
     $("#3").css("border-color", "white");
     
     $("#0").css("text-align", "center");
@@ -32,6 +38,8 @@ $("document").ready(function(){
     $("#3").css("text-align", "center");
     
     $("#1").css("text-align", "center");
+    
+    $("#Transfer").css("text-align", "center");
     
     $("#Facts").css("text-align", "left");
     
@@ -44,6 +52,15 @@ $("document").ready(function(){
     $("#2").bind('click', backgroundChange);
     
     $("#3").bind('click', backgroundChangeBack);
+});
+
+$("#Project").ready(function(){
+    
+    $(".02").css("background-color", "black");
+    
+    $("#0 ~ *").css("color", "red");
+    
+    $("#0").css("text-align", "center");
     
 });
 
@@ -78,7 +95,7 @@ function backgroundChangeBack(){
 }
 
 function mouseOverMe(){
-    $("#0").html("Aka CrimsonSlayer96 on xbox one");
+    $("#0").html("Aka CrimsonSlayer96 on xbox live");
 }
 
 function mouseOutMe(){
