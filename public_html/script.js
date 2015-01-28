@@ -11,7 +11,7 @@ $("#Index").ready(function(){
     
     $("p").css("padding", "15px");
     
-    $("#0 ~ *").css("color", "red");
+    $("p").css("color", "red");
     
     $("#0").css("color", "red");
     
@@ -58,7 +58,17 @@ $("#Project").ready(function(){
     
     $(".02").css("background-color", "black");
     
-    $("#0 ~ *").css("color", "red");
+    $("p").css("color", "red");
+    
+    $("#0").css("text-align", "center");
+    
+});
+
+$("#Techno").ready(function(){
+    
+    $(".02").css("background-color", "black");
+    
+    $("p").css("color", "red");
     
     $("#0").css("text-align", "center");
     
