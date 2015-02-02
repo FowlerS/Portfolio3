@@ -11,6 +11,8 @@ $("#Index").ready(function(){
     
     $("p").css("padding", "15px");
     
+    $("h3").css("color", "red");
+    
     $("p").css("color", "red");
     
     $("#0").css("color", "red");
@@ -39,8 +41,6 @@ $("#Index").ready(function(){
     
     $("#1").css("text-align", "center");
     
-    $("#Transfer").css("text-align", "center");
-    
     $("#Facts").css("text-align", "left");
     
     $("#Interest").css("text-align", "left");
@@ -52,6 +52,8 @@ $("#Index").ready(function(){
     $("#2").bind('click', backgroundChange);
     
     $("#3").bind('click', backgroundChangeBack);
+    
+    $("#Accordion").accordion('collapsible', true);
 });
 
 $("#Project").ready(function(){
@@ -79,9 +81,9 @@ $("#Techno").ready(function(){
 function backgroundChange(){
     $(".00").css("background-color", "white");
     
-    $("#0").css("color", "blue");
+    $("p").css("color", "blue");
     
-    $("#0 ~ *").css("color", "blue");
+    $("h3").css("color", "blue");
     
     $("#0").css("border-color", "black");
     
@@ -93,9 +95,9 @@ function backgroundChange(){
 function backgroundChangeBack(){
     $(".00").css("background-color", "black");
     
-    $("#0").css("color", "red");
+    $("p").css("color", "red");
     
-    $("#0 ~ *").css("color", "red");
+    $("h3").css("color", "red");
     
     $("#0").css("border-color", "white");
     
